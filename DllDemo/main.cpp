@@ -1,7 +1,8 @@
-﻿#include "DllTest.h"
+#include "DllTest.h"
 
-int main()
+int main(int argc, char *argv[])
 {
-    DllTest00();
+    //DllTest00();
+    DllTest01(argc, argv);
     return 0;
 }

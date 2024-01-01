@@ -7,4 +7,8 @@ void DllTest00();
 
 //////////////////////////////
 
+void DllTest01(int argc, char *argv[]);
+
+//////////////////////////////
+
 #endif // !DLL_TEST_H
