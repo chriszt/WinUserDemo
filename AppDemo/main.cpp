@@ -1,13 +1,12 @@
-﻿#include <iostream>
-#include <Windows.h>
+﻿#include <locale>
+#include "ProcessTest.h"
 
 int main()
 {
-    std::fprintf(stdout, "pid=%lu\n", GetCurrentProcessId());
-    int count = 0;
-    while (true) {
-        std::cout << "count: " << count++ << std::endl;
-        Sleep(1000);
-    }
+    setlocale(LC_ALL, ".UTF8");
+
+    //ProcessTest00();
+    ProcessTest01();
+    
     return 0;
 }
